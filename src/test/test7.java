@@ -1,5 +1,5 @@
+package test;
 import java.util.Scanner;
-
 public class test7 {
     static void main() {
         //键盘录入两个数字表示范围，求这个范围内的所有3的倍数且5的倍数的个数

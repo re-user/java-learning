@@ -1,3 +1,4 @@
+package test;
 public class test6 {
     static void main() {
         //对1~100之间的偶数求和

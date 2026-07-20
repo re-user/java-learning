@@ -1,3 +1,4 @@
+package test;
 public class test4 {
     static void main() {
         for (int i = 1; i <= 5; i++) {

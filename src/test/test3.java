@@ -1,3 +1,4 @@
+package test;
 public class test3 {
     static void main() {
         //打印1~5

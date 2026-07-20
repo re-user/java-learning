@@ -1,3 +1,4 @@
+package test;
 public class test5 {
     static void main() {
         //求1~5之间的和
