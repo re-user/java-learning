@@ -1,0 +1,10 @@
+# IDEA相关
+.idea/
+*.iml
+
+# 编译输出
+out/
+target/
+
+# 编译后的class文件
+*.class
