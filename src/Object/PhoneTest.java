@@ -1,28 +1,22 @@
 package Object;
 
 public class PhoneTest {
-    static void main(String[] args) {
-        //创建手机的对象
-        Phone p = new Phone();
+    static void main() {
+        Phone [] arr = new Phone[3];
 
-        //给手机赋值
-        p.brand = "小米";
-        p.price = 2999.98;
-
-        //获取手机对象中的值
-        System.out.println(p.brand);
-        System.out.println(p.price);
-
-        //调用手机中的方法
-        p.call();
-        p.playgame();
-
-        //创建第二个手机的对象
-        Phone p2 = new Phone();
-        p2.brand = "华为";
-        p2.price = 3999.98;
-        p2.call();
-        p2.playgame();
+        Phone p1 = new Phone("小米",1999,"白色");
+        Phone p2 = new Phone("华为",3999,"黑色");
+        Phone p3 = new Phone("魅族",2999,"红色");
+        arr[0] = p1;
+        arr[1] = p2;
+        arr[2] = p3;
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+           Phone p = arr[i];
+           sum = sum + p.getPrice();
+        }
+int avg = sum / arr.length;
+        System.out.println("平均价格为：" + avg);
 
     }
 }

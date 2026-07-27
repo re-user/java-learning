@@ -1,18 +1,9 @@
 package Object;
 
-public class Phone {
+public class Car {
     private String brand;
     private int price;
     private String color;
-
-    //构造方法
-    public Phone() {
-    }
-    public Phone(String brand, int price, String color) {
-        this.brand = brand;
-        this.price = price;
-        this.color = color;
-    }
 
     public String getBrand() {
         return brand;
@@ -38,5 +29,12 @@ public class Phone {
         this.color = color;
     }
 
+    public Car(String brand, int price, String color) {
+        this.brand = brand;
+        this.price = price;
+        this.color = color;
+    }
 
+    public Car() {
+    }
 }
